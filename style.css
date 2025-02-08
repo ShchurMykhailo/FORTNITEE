@@ -1,0 +1,1470 @@
+@font-face {
+    font-family: 'fortnite'; /* Задайте ім'я шрифту */
+    src: url('fonts/myfont.woff2') format('woff2'),
+         url('fonts/myfont.woff') format('woff'),
+         url('fonts/myfont.ttf') format('truetype'),
+         url('fonts/myfont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.fon {
+     
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+
+    background: #161515;
+
+}
+.Discover {
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 36px;
+    text-decoration: none;
+
+    position: absolute;
+    width: 65px;
+    height: 22px;
+    left: 277px;
+    top: 32px;
+}
+
+.logo {
+    position:relative;
+    width: 38px;
+    height: 39px;
+    left: 31px;
+    top: 28px;
+
+    background: url(epicgames.com-logo-logo);
+
+}
+
+
+.logo2 {
+    position: absolute;
+    width: 103px;
+    height: 39px;
+    left: 126px;
+    top: 24px;
+}
+
+
+.hero {
+    position: absolute;
+    width: 1920px;
+    height: 801px;
+    left: 0px;
+    top: 88px;
+
+    background: url(image.png);
+
+
+
+    position: absolute;
+    width: 463px;
+    height: 795px;
+    left: 1094px;
+    top: 88px;
+
+    background: url(.png);
+
+
+
+
+    position: absolute;
+    width: 126px;
+    height: 362px;
+    left: 1014px;
+    top: 168px;
+
+    background: url(.png);
+
+
+
+
+    position: absolute;
+    width: 386px;
+    height: 21px;
+    left: 244px;
+    top: 680px;
+
+    font-family: 'fortnite', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.3px;
+    line-height: 21px;
+
+
+    color: #FFFFFF;
+
+
+
+
+
+    position: absolute;
+    width: 465px;
+    height: 54px;
+    left: calc(50% - 465px/2 - 523.5px);
+    top: 508px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 43px;
+    gap: 15px;
+
+    position: absolute;
+    width: 291px;
+    height: 66px;
+    left: 291px;
+    top: 588px;
+
+    background: #F7FF19;
+    border-radius: 15px;
+
+
+
+    position: absolute;
+    width: 563px;
+    height: 153px;
+    left: 157px;
+    top: 283px;
+
+    background: url(image.png);
+
+
+
+
+    position: absolute;
+    width: 444px;
+    height: 29px;
+    left: 217px;
+    top: 462px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+
+}
+body{
+    background-color: black;
+}
+.fon2 {
+
+
+    position:absolute;
+    width: 1920px;
+    height: 801px;
+    left: -217px;
+    top: -375px;
+
+    background: url(image.png);
+
+}
+.t4 {
+    position: absolute;
+    width: 563px;
+    height: 153px;
+    left: -107px;
+    top: -163px;
+
+    background: url(image.png);
+
+}
+.text1 {
+
+
+    position: absolute;
+    width: 444px;
+    height: 29px;
+    left: -57px;
+    top: -13px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+
+}
+.text2 {
+    position: absolute;
+    width: 465px;
+    height: 54px;
+    left: -57px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+.text {
+
+    position: absolute;
+    width: 386px;
+    height: 21px;
+    left: -40px;
+    top: 200px;
+
+    font-family: 'FORTNITE BATTLEFEST';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.3px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+
+}
+.b1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 43px;
+    gap: 15px;
+
+    position: absolute;
+    width: 291px;
+    height: 66px;
+    left: 40px;
+    top: 130px;
+    background: #F7FF19;
+    border-radius: 15px;
+    font-family: 'Copperplate';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 38px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.img1 {
+
+    position: absolute;
+    width: 126px;
+    height: 362px;
+    left: 714px;
+    top: -240px;
+
+    background: url(.png);
+
+}
+.img2 {
+
+    position: absolute;
+    width: 463px;
+    height: 795px;
+    left: 830px;
+    top: -380px;
+
+    background: url(.png);
+
+}
+.game {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 2028.37px;
+    height: 315.99px;
+    left: 48px;
+    top: 989px;
+
+
+}
+.be {
+
+    width: 2028.37px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    bottom: 500px;
+
+}
+
+.imggm1 {
+
+    width: 255.48px;
+    height: 156.55px;
+
+    background: url(image.png);
+    border-radius: 22.8303px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.game1inf {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 116.33px;
+
+    width: 255.48px;
+    height: 33.87px;
+
+
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.nm1 {
+
+    width: 255.48px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.k {
+    
+
+    width: 65px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;   
+
+}
+.yo {
+
+    width: 35px;
+    height: 23px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.43578px;
+    gap: 10.87px;
+
+    width: 45.87px;
+    height: 33.87px;
+
+    background: #26262A;
+    border-radius: 5.43578px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+.pk {
+
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8.7px;
+
+    width: 93.27px;
+    height: 27px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.game1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.78px;
+
+    width: 255.48px;
+    height: 236.99px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.imggm2{
+
+    width: 255.48px;
+    height: 156.55px;
+
+    /*background: url(og zero.jpg);*/
+    border-radius: 22.8303px;
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.nm2 {
+
+    width: 254px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.game2inf {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 116.33px;
+
+    width: 255.48px;
+    height: 33.87px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.k1 {
+
+    width: 52px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.yo1 {
+
+    width: 35px;
+    height: 23px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.43578px;
+    gap: 10.87px;
+
+    width: 45.87px;
+    height: 33.87px;
+
+    background: #26262A;
+    border-radius: 5.43578px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.pk1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8.7px;
+
+    width: 80.27px;
+    height: 27px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.game2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.78px;
+
+    width: 255.48px;
+    height: 236.99px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.byepic {
+    /* Frame 30 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 2028.37px;
+    height: 315.99px;
+    left: 48px;
+    top: 989px;
+    /* Frame 30 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 2028.37px;
+    height: 315.99px;
+    left: 48px;
+    top: 989px;
+
+
+
+}
+.game {
+    /* Frame 21 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    width: 2028.37px;
+    height: 236.99px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    top:100px;
+    left:0px;
+
+}
+.imggm3 {
+
+    width: 255.48px;
+    height: 156.55px;
+
+    /*background: url(дупщ ащке.jpg);*/
+    border-radius: 22.8303px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.nm3 {
+
+    width: 254px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.game3inf {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 116.33px;
+
+    width: 255.48px;
+    height: 33.87px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.k3 {
+
+    width: 63px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.yo3 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.43578px;
+    gap: 10.87px;
+
+    width: 36.87px;
+    height: 33.87px;
+
+    background: #26262A;
+    border-radius: 5.43578px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    width: 26px;
+    height: 23px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+.pk3 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8.7px;
+
+    width: 91.27px;
+    height: 27px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.game3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.78px;
+
+    width: 255.48px;
+    height: 236.99px;
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.imggm4 {
+
+    width: 255.48px;
+    height: 156.55px;
+
+    /*background: url(дупщ ащке.jpg);*/
+    border-radius: 22.8303px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.nm4 {
+
+    width: 254px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.game4inf {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 116.33px;
+
+    width: 255.48px;
+    height: 33.87px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.k4 {
+
+    width: 63px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.yo4 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.43578px;
+    gap: 10.87px;
+
+    width: 36.87px;
+    height: 33.87px;
+
+    background: #26262A;
+    border-radius: 5.43578px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    width: 26px;
+    height: 23px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+.pk4{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8.7px;
+
+    width: 91.27px;
+    height: 27px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.game4 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.78px;
+
+    width: 255.48px;
+    height: 236.99px;
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.imggm5 {
+
+    width: 255.48px;
+    height: 156.55px;
+
+
+    border-radius: 22.8303px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.nm5 {
+
+    width: 254px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.game5inf {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 116.33px;
+
+    width: 255.48px;
+    height: 33.87px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.k5 {
+
+    width: 63px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.yo5 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.43578px;
+    gap: 10.87px;
+
+    width: 36.87px;
+    height: 33.87px;
+
+    background: #26262A;
+    border-radius: 5.43578px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    width: 26px;
+    height: 23px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+.pk5 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8.7px;
+
+    width: 91.27px;
+    height: 27px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.game5 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.78px;
+
+    width: 255.48px;
+    height: 236.99px;
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.imggm6 {
+
+    width: 255.48px;
+    height: 156.55px;
+
+    /*background: url(дупщ ащке.jpg);*/
+    border-radius: 22.8303px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.nm6 {
+
+    width: 254px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.game6inf {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 116.33px;
+
+    width: 255.48px;
+    height: 33.87px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.k6 {
+
+    width: 63px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.yo6 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.43578px;
+    gap: 10.87px;
+
+    width: 36.87px;
+    height: 33.87px;
+
+    background: #26262A;
+    border-radius: 5.43578px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    width: 26px;
+    height: 23px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+.pk6{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8.7px;
+
+    width: 91.27px;
+    height: 27px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.game6 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.78px;
+
+    width: 255.48px;
+    height: 236.99px;
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.imggm7 {
+
+    width: 255.48px;
+    height: 156.55px;
+
+    /*background: url(дупщ ащке.jpg);*/
+    border-radius: 22.8303px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.nm7 {
+
+    width: 254px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.game7inf {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 116.33px;
+
+    width: 255.48px;
+    height: 33.87px;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.k7 {
+
+    width: 63px;
+    height: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.yo7 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5.43578px;
+    gap: 10.87px;
+
+    width: 36.87px;
+    height: 33.87px;
+
+    background: #26262A;
+    border-radius: 5.43578px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    width: 26px;
+    height: 23px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+.pk7 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8.7px;
+
+    width: 91.27px;
+    height: 27px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.game7 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9.78px;
+
+    width: 255.48px;
+    height: 236.99px;
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+.gamecollections {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 1818px;
+    height: 226px;
+    left: 48px;
+    top: 1365px;
+
+    width: 1818px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+
+}
+.collections {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 34px;
+
+    width: 1818px;
+    height: 147px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+.tx111 {
+
+
+    width: 429px;
+    height: 136px;
+    left: 0px;
+    top: 11px;
+
+    background: #460180;
+    border-radius: 10px;
+
+}
+.tx1 {
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    left: 34px;
+    top:200px;
+
+    background: url(tmnt-logohero-512x128-187c2ff2f8ae.png);
+
+}
+.tx11 {
+
+    position: absolute;
+    width: 254px;
+    height: 147px;
+    left: 175px;
+    top: 133px;
+
+    background: url(.png);
+
+}
+.gr1 {
+    /* Group 5 */
+
+    width: 429px;
+    height: 147px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
