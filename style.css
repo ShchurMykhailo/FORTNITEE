@@ -8,72 +8,77 @@
     font-style: normal;
 }
 header {
-
-    position: absolute;
-    width: 1920px;
-    height: 88px;
-    left: 0px;
-    top: 0px;
-
-
-}
-.menu {
-
-    position: absolute;
-    width: 1920px;
-    height: 88px;
-    left: 0px;
-    top: 0px;
-
-
-}
-.fon {
-     
-    width: 100%;
-    height: 88px;
-    left: 0px;
-    top: 0px;
-
-    background: #161515;
-
-}
-.Discover {
-    color:#FFFFFF;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 36px;
-    text-decoration: none;
-
-    position: absolute;
-    width: 65px;
-    height: 22px;
-    left: 277px;
-    top: 32px;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    padding: 10px 40px;
 }
 
 .logo {
-    position:relative;
-    width: 38px;
-    height: 39px;
-    left: 31px;
-    top: 28px;
-
-    background: url(epicgames.com-logo-logo);
-
+    height: 40px;
 }
 
-
 .logo2 {
+    height: 32px;
+    margin-left: 15px;
+}
 
-    position: absolute;
-    width: 103px;
-    height: 39px;
-    left: 126px;
-    top: 24px;
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
 
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
 
+.menu a:hover {
+    color: #cccccc;
+}
+
+.vector1 {
+    height: 12px;
+    margin: 0 10px;
+}
+
+.menu img {
+    height: 22px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons button {
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttons button:first-child {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 6px 12px;
+}
+
+.buttons button:last-child {
+    background-color: yellow;
+    color: black;
+    padding: 6px 12px;
+    font-weight: bold;
 }
 
 
